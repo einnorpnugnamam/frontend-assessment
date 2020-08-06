@@ -1,0 +1,54 @@
+{% extends "layout/index.nj" %}
+
+{% set page_title = "Assessment" %}
+    
+    {% block content %}
+        <div class="home">
+            <article class="banner">
+            	<picture>
+					<!--[if IE 9]><video style="display: none;"><![endif]-->
+					<source srcset="http://via.placeholder.com/1920x650" media="(min-width: 767px)">
+					<source srcset="http://via.placeholder.com/600x600" media="(min-width: 320px)">
+					<!--[if IE 9]></video><![endif]-->
+					<img alt="Lorem Ipsum" class="lazyload" src="http://via.placeholder.com/1920x650">
+				</picture>
+				<div class="heading">
+					<h1 class="heading-1">Hello Developer!</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+				</div>
+            </article>
+
+            <div class="content">
+            	<div class="boxes">
+            		<article class="box">
+            			<div class="content-img">
+            				<img alt="lorem ipsum" src="http://via.placeholder.com/400x300" />
+            			</div>
+            			<div class="content-details">
+            				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            			</div>
+            			<a href="#" class="read-more-link">Read More</a>
+            		</article>
+            		<article class="box">
+            			<div class="content-img">
+            				<img alt="lorem ipsum" src="http://via.placeholder.com/400x300" />
+            			</div>
+            			<div class="content-details">
+            				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            			</div>
+            			<a href="#" class="read-more-link">Read More</a>
+            		</article>
+            		<article class="box">
+            			<div class="content-img">
+            				<img alt="lorem ipsum" src="http://via.placeholder.com/400x300" />
+            			</div>
+            			<div class="content-details">
+            				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+            			</div>
+            			<a href="#" class="read-more-link">Read More</a>
+            		</article>
+            	</div>
+            </div>
+            <div class="tabs"></div>
+        </div>
+	{% endblock %}

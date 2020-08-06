@@ -1,0 +1,39 @@
+.wrapper .main {
+	.content {
+		.boxes {
+			flex-flow: column wrap;
+
+			.box {
+				width: calc(100% - 40px);
+    			margin: 10px 20px;
+			}
+		}
+	}
+
+	.tabs {
+		width: calc(100% - 40px);
+
+		.tabs-title {
+			li.clickable {
+				display: block;
+				padding: 0.7em 0.5em;
+			}
+		}
+
+		.tabs-content {
+			&.hidden-mobile {
+				display: none;
+			}
+
+			&.hidden-desktop {
+				display: block;
+
+				&.hide {
+					display: none;
+				}
+			}
+
+			border-radius: 0;
+		}
+	}
+}

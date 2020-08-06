@@ -1,0 +1,15 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+
+  /* DEVELOPERS */
+  Front End Developer : Ronnie P. Mamangun
+  Location: Pampanga, Philippines
+
+
+/* SITE */
+  Last update: 2017/05/25
+  Standards: HTML5, CSS3, Javascript
+  Components: jQuery, Normalize.css, Progressive Internet Explorer
+  IDE: Sublime Text, Photoshop
